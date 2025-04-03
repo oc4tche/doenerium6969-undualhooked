@@ -153,11 +153,11 @@ thats it for now.
 
 > - ~~Exodus wallet injection (get the password whenever the user logs in the wallet)~~
 > - More grabbers (VPN's, Gaming, Messengers)
-> - Keylogger/<strike>Clipper</strike>
+> - <strike>Clipper</strike>
 > - Telegram bot to build within Telegram
 > - <strike>Stable Version recive log by Telegram</strike>
 > - Firefox stealer
->   
+> - GET NEW COOKIES
 > - [Click here](https://discord.gg/doenerium) to request new features that you would like to see in the next version of our software ?
 <a id="license"></a>
 
