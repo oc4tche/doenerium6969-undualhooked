@@ -1,12 +1,11 @@
 <a id="top"></a>
 <h1 align="center">
-💎 NEW TELEGRAM                                                      
-    <br>      JOIN -> t.me/vatfraudster
+💎 TELEGRAM CHANNEL -> t.me/vatfraudster
 </h1>
 <br>
 
 <h1 align="center">
-💎 FIX DETECTS AND UPDATE WALLET INJECT AT 50 MEMBERS ON TELEGRAM 😉
+💎 I WILL FIX THE DETECTIONS AND UPDATE THE WALLET INJECTION AND PUT A NEW METHOD TO COLLECT CHROMIUM COOKIES TO 50 MEMBERS ON TELEGRAM 😉
 </h1>
 
 ## important to know!!
@@ -71,57 +70,27 @@ thats it for now.
 >
 > Steal Backup 2FA Code [ Discord, Epic Games, Github ]
 >
-> Grabs crypto wallets -
-> 💸 Zcash
-> 🚀 Armory
-> 📀 Bytecoin
-> 💵 Jaxx
-> 💎 Exodus
-> 📉 Ethereum
-> 🔨 Electrum
-> 🕹️ AtomicWallet
-> 💹 Guarda
-> ⚡ Coinomi
-> 🦊 MetaMask
->
+> Crypto Wallets (Zcash, Armory, Bytecoin, Jaxx, Exodus, Ethereum, Electrum, AtomicWallet, Guarda, Coinomi, MetaMask
+> 
 > Browser (Chrome, Opera, Firefox, OperaGX, Edge, Brave, Yandex) -
+>
 > Passwords, Cookies, Autofill & History (Searches for specific keywords such as PayPal, Coinbase etc. in them)
 >
 > Screenshots all screen
 >
-> Telegram Session stealer
+> FTP Client (FileZilla)
 >
-> Riot Games Session stealer
-> 
-> FTP stealer (FileZilla)
+> Games Clients (Growtopia, Steam, Minecraft, Epic Games, Riot Games
 >
-> VPN Stealer
+> Messengers Clients (Telegram)
 >
-> Growtopia Stealer
->
-> Minecraft Session stealer & validator
-> 
-> Instagram Session stealer & validator
-> 
-> Roblox Session stealer & validator
->
-> Steam Session stealer & validator
->
-> TikTok Session stealer & validator
->
-> Twitter Session stealer & validator
->
-> Reddit Session stealer & validator
->
-> Epic Games Launcher Session stealer
-
-
+> Sessions (Reddit, Twitter, TikTok, Steam, Roblox, Instagram, Minecraft, Riot Games)
 
 ### 🏹 〢 Additional
 
 > Internet connection check every 3 seconds before it starts stealing
 >
-> Ultra Obfuscation (use https://obfuscator.io)
+> Ultra Obfuscation (use https://js-confuser.com/)
 >
 > Disable UAC / Anti-Debug / Anti-VM / Blue Screen if detect
 >
@@ -135,11 +104,7 @@ thats it for now.
 
 
 
-<a id="todo"></a>
-
----
-
-### 📝 〢 Todo
+<a id="todo">📝 〢 Todo</a>
 
 > - ~~Exodus wallet injection (get the password whenever the user logs in the wallet)~~
 > - More grabbers (VPN's, Gaming, Messengers)
