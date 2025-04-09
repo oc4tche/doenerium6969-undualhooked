@@ -4,11 +4,6 @@
     <br>      JOIN -> t.me/vatfraudster
 </h1>
 <br>
-<p align="center"> 
-  <kbd>
-<img src="https://images-ext-1.discordapp.net/external/XF_zctmsx1ZUspqbqhZfSm91qIlNvdtEVMkl7uISZD8/%3Fsize%3D96%26quality%3Dlossless/https/cdn.discordapp.com/emojis/948405394433253416.webp" width="328"></img>
-  </kbd>
-</p>
 
 <h1 align="center">
 💎 FIX DETECTS AND UPDATE WALLET INJECT AT 50 MEMBERS ON TELEGRAM 😉
@@ -20,11 +15,6 @@
 
 thats it for now.
 
-<p align="center">
-<img src="https://img.shields.io/github/last-commit/doenerium6969/doenerium-fixed?style=flat">
-<img src="https://img.shields.io/github/stars/doenerium6969/doenerium-fixed?color=brightgreen">
-<img src="https://img.shields.io/github/forks/doenerium6969/doenerium-fixed?color=brightgreen">
-</p>
 <br>
 
 ## 🌐 〢 Content
