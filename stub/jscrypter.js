@@ -9,9 +9,7 @@ const file = fs.readFileSync(inputFile, "utf-8");
 JsConfuser.obfuscate(file, {
   target: "node",
   compact: true,
-  // pack: true,
   identifierGenerator: "randomized",
-  // hexadecimalNumbers: true,
   renameVariables: true,
   renameGlobals: true,
   renameLabels: true,
@@ -19,20 +17,15 @@ JsConfuser.obfuscate(file, {
   stringCompression: true,
   stringConcealing: true,
   stringSplitting: true,
-  // calculator: true,// maybe
-  // objectExtraction: true,// maybe
   globalConcealing: true,
-  // shuffle: true,
   duplicateLiteralsRemoval: true,
-  controlFlowFlattening: 0.3, // reduit a 0.3 (maybe
-  // flatten: true,
-  dispatcher: true,// maybe
+  controlFlowFlattening: 0.3,
+  dispatcher: true,
   opaquePredicates: true,
   deadCode: true,
   astScrambler: true,
   variableMasking: true,
   lock: {
-    // endDate: `${config.Expiry}`,// maybe
     selfDefending: true,
     integrity: true,
     antiDebug: true,
