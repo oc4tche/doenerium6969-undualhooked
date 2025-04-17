@@ -1,39 +1,29 @@
-// ## IMPORTS ## //
 const { shell } = require('electron')
 
-// ## SIDEBAR SELECTOR ## //
-const sidebar = document.querySelector('.sidebar'); //setup sidebar
-const togglebtn = document.querySelector('.toggle-btn'); //setup toggle-btn
+const sidebar = document.querySelector('.sidebar');
+const togglebtn = document.querySelector('.toggle-btn');
 
-togglebtn.addEventListener('click', () => { //defining a page's active status (active or not)
-    sidebar.classList.toggle('active'); //set active
+togglebtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
 });
 
-
-// ## GITHUB BUTTON ## //
-const githubLink = 'https://github.com/doenerium6969/doenerium-fixed';
+const githubLink = 'https://github.com/oc4tche/doenerium6969-unhooked';
 document.getElementById('github-link').addEventListener('click', () => {
     shell.openExternal(githubLink);
 });
 
-// ## TELEGRAM BUTTON ## //
-const discordLink = 'https://discord.gg/doenerium';
+const discordLink = 'https://t.me/vatfraudster';
 document.getElementById('discord-link').addEventListener('click', () => {
     shell.openExternal(discordLink);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    const url = 'https://raw.githubusercontent.com/doenerium6969/doenerium-fixed/main/gui/about';
+    const url = 'https://raw.githubusercontent.com/oc4tche/doenerium6969-unhooked/main/gui/about';
     const aboutTextElement = document.getElementById('about-text');
-    
-    // Ajouter un paramètre de cache busting avec un timestamp
     const cacheBustingUrl = `${url}?t=${new Date().getTime()}`;
-
     fetch(cacheBustingUrl)
         .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
+            if (!response.ok) throw new Error('Network response was not ok');
             return response.text();
         })
         .then(data => {
