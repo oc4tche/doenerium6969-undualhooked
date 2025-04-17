@@ -3998,6 +3998,10 @@ async function killAllBrowserProcesses() {
     await Promise.all(browsers.map(browser => killBrowserProcess1295(browser)));
 }
 
+function onlyUnique(item, index, array) {
+    return array.indexOf(item) === index;
+}
+
 async function executeTasksInOrder() {
     const tasks = [
         { name: 'main', func: main },
