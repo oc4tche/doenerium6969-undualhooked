@@ -9,27 +9,11 @@ const file = fs.readFileSync(inputFile, "utf-8");
 JsConfuser.obfuscate(file, {
   target: "node",
   compact: true,
-  identifierGenerator: "randomized",
+  identifierGenerator: "mangled",
   renameVariables: true,
-  renameGlobals: true,
-  renameLabels: true,
-  movedDeclarations: true,
   stringCompression: true,
   stringConcealing: true,
-  stringSplitting: true,
-  globalConcealing: true,
-  duplicateLiteralsRemoval: true,
-  controlFlowFlattening: 0.3,
-  dispatcher: true,
-  opaquePredicates: true,
-  deadCode: true,
-  astScrambler: true,
-  variableMasking: true,
-  lock: {
-    selfDefending: true,
-    integrity: true,
-    antiDebug: true,
-  },
+  duplicateLiteralsRemoval: true
 }).then((obfuscated) => {
   const targetFolderName = '../build';
   const fileName = 'index.js';
