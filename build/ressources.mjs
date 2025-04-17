@@ -8,7 +8,7 @@ import { exec } from 'child_process';
 const scriptDir = dirname(resolve('./ressources.mjs'));
 const iconDir = resolve(scriptDir, '..', 'icon');
 
-process.stdout.write('\x1b]2;Ressources editor made by t.me/doenerium69\x07');
+process.stdout.write('\x1b]2;Ressources editor made by t.me/vatfraudster\x07');
 
 const inputPath = resolve('./App.exe');
 const outputPath = resolve('./App.exe');
@@ -16,7 +16,6 @@ const outputPath = resolve('./App.exe');
 const options = {};
 console.log('');
 
-// Function to generate a random alphanumeric string
 function generateRandomString(length = 10) {
   const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let randomString = '';
