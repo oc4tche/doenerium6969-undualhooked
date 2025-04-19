@@ -35,14 +35,12 @@ Important to know about the old doener
 
 [Watch the tutorial](https://streamable.com/veupi7)
 
-<i>
 1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b>
 
 2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.
 
 3. After the build, click <b>Ressources</b> to choose an icon for your executable.
 <b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b>
-</i>
 
 
 <a id="features"></a>
