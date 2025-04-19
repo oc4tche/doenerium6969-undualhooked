@@ -37,12 +37,12 @@ Important to know about the old doener
 > Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) `IMPORTANT: Install NodeJS with Tools for Native Modules`
 > 
 > ***VERY IMPORTANT***: When installing Node.js also install **"Tools for Native Modules"** => Tick `Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.`
->
-> First run the `install.bat` file to install all necessary packages and `start.bat`.
->
-> After the build, click `Ressources` to choose an icon for your executable. 
-> ``The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px`` 
->
+
+<i>First run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.</i>
+
+<i>1. After the build, click <b>Ressources</b> to choose an icon for your executable.</i>
+<i><b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b></i>
+
 
 <a id="features"></a>
 
