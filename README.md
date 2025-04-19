@@ -10,11 +10,9 @@
 <br>
 
 <i>
-## important to know!!
-1. if u dont have steam client installed on ur pc the stealer wont work (that why vm's dont work)
-2. if u want the crypto clipper feature | open the stub.js with txt or whatever;  press "ctrl" + "f" and past this "base32" decrypt the encoded value and replace with ur adresses
-
-thats it for now.
+Important to know about the old doener
+1. if you dont have steam client installed on your pc the stealer wont work (that why virtual machine's dont work).
+2. if you want the crypto clipper feature | open the stub.js with txt or whatever, press "ctrl" + "f" and past this "base32" decrypt the encoded value and replace it with your adresses.
 </i>
 
 ## 🌐 〢 Content
