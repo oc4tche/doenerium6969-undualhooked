@@ -5,7 +5,7 @@ DOENERIUM UNDUALHOOKED
 </h1>
 <br>
 
-## You can do any pull requests, i'll check them and approve or disapprove then
+### You can do any pull requests, i'll check them and approve or disapprove them
 
 <b><a href="https://t.me/vatfraudster">Telegram Channel</a></b>
 
