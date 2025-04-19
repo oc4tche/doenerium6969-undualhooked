@@ -33,9 +33,9 @@ Important to know about the old doener
 
 ## 📁 〢 Setting Up
 
-<i>
 [Watch the tutorial](https://streamable.com/veupi7)
-  
+
+<i>
 1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b>
 
 2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.
