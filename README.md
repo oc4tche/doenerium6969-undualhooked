@@ -33,14 +33,17 @@ Important to know about the old doener
 
 ## 📁 〢 Setting Up
 
-<i>1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b></i>
+<i>
 
-<i><b>VERY IMPORTANT:</b> When installing Node.js also install <b>"Tools for Native Modules"</b> => Tick <b>Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.</b></i>
+  1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b>
 
-<i>2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.</i>
-
-<i>3. After the build, click <b>Ressources</b> to choose an icon for your executable.</i>
-<i><b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b></i>
+  <b>VERY IMPORTANT:</b> When installing Node.js also install <b>"Tools for Native Modules"</b> => Tick <b>Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.</b>
+  
+  2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.
+  
+  3. After the build, click <b>Ressources</b> to choose an icon for your executable.
+  <b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b>
+</i>
 
 [Watch the tutorial](https://streamable.com/veupi7)
 
