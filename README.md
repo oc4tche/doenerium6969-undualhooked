@@ -5,7 +5,7 @@
 </h1>
 <br>
 
-<h2>You can do any pull requests, i'll check them and approve or disapprove then</h2>
+<b>You can do any pull requests, i'll check them and approve or disapprove then</b>
 
 <br>
 
