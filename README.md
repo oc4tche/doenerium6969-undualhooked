@@ -30,19 +30,16 @@ Important to know about the old doener
 
 
 ## 📁  〢 Setting Up
->
-> [![Watch the video](https://cdn.discordapp.com/attachments/1206389634926383234/1286525981061808148/image_3.png?ex=67dc30f0&is=67dadf70&hm=44f6202f8da98ebcef5bfd1764f5c9ef0603b40a4d5564f21258620ce4b1fa19&)](https://streamable.com/veupi7)
->
->
-> Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) `IMPORTANT: Install NodeJS with Tools for Native Modules`
-> 
-> ***VERY IMPORTANT***: When installing Node.js also install **"Tools for Native Modules"** => Tick `Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.`
 
-<i>First run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.</i>
+<i>1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b></i>
 
-<i>1. After the build, click <b>Ressources</b> to choose an icon for your executable.</i>
+<i><b>VERY IMPORTANT:</b> When installing Node.js also install <b>"Tools for Native Modules"</b> => Tick <b>Automatically install the neccessary tools. Note that this will also install Chocolatey. The script will pop-up in a new window after the installation completes.</b></i>
+
+<i>2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.</i>
+
+<i>3. After the build, click <b>Ressources</b> to choose an icon for your executable.</i>
 <i><b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b></i>
-
+[![Watch the video](https://cdn.discordapp.com/attachments/1206389634926383234/1286525981061808148/image_3.png?ex=67dc30f0&is=67dadf70&hm=44f6202f8da98ebcef5bfd1764f5c9ef0603b40a4d5564f21258620ce4b1fa19&)](https://streamable.com/veupi7)
 
 <a id="features"></a>
 
