@@ -1,12 +1,9 @@
 <a id="top"></a>
-<h1 align="center">
-💎 TELEGRAM CHANNEL -> t.me/vatfraudster
-</h1>
-<br>
 
 <h1 align="center">
-💎 I WILL FIX THE DETECTIONS AND UPDATE THE WALLET INJECTION AND PUT A NEW METHOD TO COLLECT CHROMIUM COOKIES AT 50 MEMBERS ON TELEGRAM 😉
+<a href="https://t.me/vatfraudster">💎 TELEGRAM CHANNEL</a>
 </h1>
+<br>
 
 ## You can do any pull requests, i'll check them and approve or disapprove then
 
