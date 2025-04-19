@@ -7,13 +7,15 @@
 
 ## You can do any pull requests, i'll check them and approve or disapprove then
 
+<br>
+
+<i>
 ## important to know!!
 1. if u dont have steam client installed on ur pc the stealer wont work (that why vm's dont work)
 2. if u want the crypto clipper feature | open the stub.js with txt or whatever;  press "ctrl" + "f" and past this "base32" decrypt the encoded value and replace with ur adresses
 
 thats it for now.
-
-<br>
+</i>
 
 ## 🌐 〢 Content
 
