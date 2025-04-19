@@ -35,7 +35,7 @@ Important to know about the old doener
 
 [Watch the tutorial](https://streamable.com/veupi7)
 
-1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b>
+1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules (chocolatey)</b>
 
 2. Run the <b>install.bat</b> file to install all necessary packages and <b>start.bat</b>.
 
