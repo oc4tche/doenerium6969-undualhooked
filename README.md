@@ -40,7 +40,7 @@ Important to know about the old doener
 <i>3. After the build, click <b>Ressources</b> to choose an icon for your executable.</i>
 <i><b>The filetype must be ".ico" and the icon should be 16x16px, 32x32px, 64x64px, 128x128px, 256x256px</b></i>
 
-[![Watch the video]](https://streamable.com/veupi7)
+[Watch the tutorial video](https://streamable.com/veupi7)
 
 <a id="features"></a>
 
