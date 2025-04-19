@@ -26,7 +26,8 @@ Important to know about the old doener
 - [⚠️ Note](#note)
 
 <a id="setup"></a>
-📁 〢 Setting Up
+
+## 📁 〢 Setting Up
 
 <i>1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/current) <b>IMPORTANT: Install NodeJS with Tools for Native Modules</b></i>
 
@@ -39,7 +40,9 @@ Important to know about the old doener
 
 [Watch the tutorial](https://streamable.com/veupi7)
 
-<a id="features">## ⚔️ 〢 Features</a>
+<a id="features"></a>
+
+## ⚔️ 〢 Features
 
 #### Stealer
 
