@@ -113,7 +113,7 @@ Important to know about the old doener
 > - [Click here](https://discord.gg/doenerium) to request new features that you would like to see in the next version of our software ?
 <a id="license"></a>
 
----
+
 
 ### 📜 〢 License
 
@@ -121,7 +121,7 @@ By downloading this, you agree to the Commons Clause license and that you're not
 
 <a id="note"></a>
 
----
+
 
 ### ⚠️ 〢 Note
 
