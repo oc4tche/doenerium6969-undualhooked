@@ -7,7 +7,7 @@ DOENERIUM UNDUALHOOKED
 
 <b>You can do any pull requests, i'll check them and approve or disapprove then</b>
 
-<b><a href="https://t.me/vatfraudster">💎 Telegram Channel</a></b>
+<b><a href="https://t.me/vatfraudster">Telegram Channel</a></b>
 
 <br>
 
