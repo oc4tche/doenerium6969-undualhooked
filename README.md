@@ -9,8 +9,6 @@ DOENERIUM UNDUALHOOKED
 
 <b><a href="https://t.me/vatfraudster">Telegram Channel</a></b>
 
-<br>
-
 <i>
 Important to know about the old doener
   
