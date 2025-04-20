@@ -88,8 +88,6 @@ Important to know about the old doener
 >
 > Disable UAC / Anti-Debug / Anti-VM / Blue Screen if detect
 >
-> No Traces and silent
->
 > Validates a found discord token and then sends it to your discord webhook
 >
 > Sends all files to your discord webhook in beautiful embeds and a structured zip file
@@ -105,8 +103,8 @@ Important to know about the old doener
 > - <strike>Clipper</strike>
 > - Telegram bot to build within Telegram
 > - <strike>Stable Version recive log by Telegram</strike>
-> - Firefox stealer
-> - GET NEW COOKIES
+> - <strike>Firefox stealer</strike>
+> - <strike>GET NEW COOKIES</strike>
 > - [Click here](https://discord.gg/doenerium) to request new features that you would like to see in the next version of our software ?
 <a id="license"></a>
 
