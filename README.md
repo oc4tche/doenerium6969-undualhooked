@@ -100,7 +100,7 @@ Important to know about the old doener
 
 <a id="changelogs"></a>
 
-📝 〢 Change Logs
+## 📝 〢 Change Logs
 
 ```
 - v0.9 removed dualhook
