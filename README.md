@@ -118,3 +118,5 @@ By downloading this, you agree to the Commons Clause license and that you're not
 ##  ⚠️ 〢 Note
 
 I am not responsible for any damages this software may cause after being acquired. This software was made for personal education and sandbox testing.
+
+<a align="center">#note</a>
