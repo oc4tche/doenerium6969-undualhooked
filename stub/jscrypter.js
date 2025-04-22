@@ -2,7 +2,7 @@ const JsConfuser = require("js-confuser");
 const fs = require('fs');
 const path = require('path');
 
-const inputFile = path.join(__dirname, 'stub.js'); // Chemin absolu
+const inputFile = path.join(__dirname, 'stub.js');
 const file = fs.readFileSync(inputFile, "utf-8");
 
 JsConfuser.obfuscate(file, {
@@ -29,21 +29,13 @@ JsConfuser.obfuscate(file, {
 }).then((obfuscated) => {
   const buildDir = path.join(__dirname, '../build');
   const outputPath = path.join(buildDir, 'index.js');
-  
-  if (!fs.existsSync(buildDir)) {
-    fs.mkdirSync(buildDir, { recursive: true });
-  }
+  if (!fs.existsSync(buildDir)) fs.mkdirSync(buildDir, { recursive: true });
   const outputContent = typeof obfuscated === 'string' ? obfuscated : JSON.stringify(obfuscated);
-
   fs.writeFileSync(outputPath, outputContent, 'utf8');
-  if (!fs.existsSync(outputPath)) {
-    throw new Error('INDEX.JR NON CREE DANS BUILD/');
-  }
-  console.log('Verification du fichier:');
+  if (!fs.existsSync(outputPath)) throw new Error('INDEX.JR Not created in build/');
   console.log(fs.readFileSync(outputPath, 'utf8').substring(0, 100) + '...');
-  console.log('Build créé avec succès dans /build/index.js');
-  
+  console.log('Build created succesfuly /build/index.js');
 }).catch((error) => {
-  console.error('Erreur d\'obfuscation:', error);
+  console.error('Error obfuscation:', error);
   process.exit(1);
 });
