@@ -1,29 +1,16 @@
-const crypto = require('crypto');
 const { spawn } = require('child_process');
-
-function encrypt(text, masterkey) {
-  const iv = crypto.randomBytes(16);
-  const salt = crypto.randomBytes(16);
-  const key = crypto.pbkdf2Sync(masterkey, salt, 100000, 32, 'sha512');
-  const cipher = crypto.createCipheriv('aes-256-cbc', key, iv);
-  let encrypted = cipher.update(text, 'utf8', 'base64');
-  encrypted += cipher.final('base64');
-  return { encryptedData: encrypted, salt: salt.toString('base64'), iv: iv.toString('base64') };
-}
-
-function decrypt(encdata, masterkey, salt, iv) {
-  const key = crypto.pbkdf2Sync(masterkey, Buffer.from(salt, 'base64'), 100000, 32, 'sha512');
-  const decipher = crypto.createDecipheriv('aes-256-cbc', key, Buffer.from(iv, 'base64'));
-  let decrypted = decipher.update(encdata, 'base64', 'utf8');
-  decrypted += decipher.final('utf8');
-  return decrypted;
-}
+const path = require('path');
+const fs = require('fs');
 
 function executeSecondCrypterScript() {
-  const childProcess = spawn('node', ['jscrypter.js'], { cwd: __dirname, stdio: 'inherit' });
+  const buildDir = path.join(__dirname, '../build');
+  if (!fs.existsSync(buildDir)) {
+    fs.mkdirSync(buildDir, { recursive: true });
+  }
 
-  childProcess.on('error', (error) => {
-    console.error(`Script execution error: ${error.message}`);
+  const childProcess = spawn('node', [path.join(__dirname, 'jscrypter.js')], {
+    cwd: buildDir,
+    stdio: 'inherit'
   });
 
   return new Promise((resolve) => {
@@ -34,4 +21,4 @@ function executeSecondCrypterScript() {
   });
 }
 
-module.exports = { encrypt, decrypt, executeSecondCrypterScript };
+module.exports = { executeSecondCrypterScript };
